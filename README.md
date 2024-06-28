@@ -1,5 +1,7 @@
 # GWOC_Website
 https://667e6282caa5b7c89cf0daff--effervescent-profiterole-1dc7ee.netlify.app
+
+
 Our RESPONISVE website mirrors the café's ambiance and offerings.
 With CSS, HTML and JavaScript, we encapsulate every aspect.
 
