@@ -1,0 +1,951 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 
+    - primary meta tags
+  -->
+  <title>KOE-The kafe</title>
+  <meta name="title" content="KOE-The Kafe">
+  <meta name="description" content="This is a Restaurant html template made by codewithsadee">
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Forum&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Petit+Formal+Script&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Grandiflora+One&family=League+Script&family=Petit+Formal+Script&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=Grandiflora+One&family=League+Script&family=Petit+Formal+Script&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Allura&family=Great+Vibes&family=Gruppo&family=Tangerine:wght@400;700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Allura&family=Cormorant:ital,wght@0,300..700;1,300..700&family=Great+Vibes&family=Gruppo&family=Tangerine:wght@400;700&display=swap" rel="stylesheet">
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="./assets/images/hero-slider-1.jpg">
+  <link rel="preload" as="image" href="./assets/images/hero-slider-2.jpg">
+  <link rel="preload" as="image" href="./assets/images/hero-slider-3.jpg">
+
+</head>
+
+<body id="top">
+
+  <!-- 
+    - #PRELOADER
+  -->
+
+  <div class="preload" data-preaload>
+    <div class="circle"></div>
+    <p class="text">KOE</p>
+  </div>
+
+
+  <!-- 
+    - #POP-UP
+  -->
+    
+  <div id="popup" class="popup">
+    <div class="popup-content">
+     
+      <img src="2.png" alt="Popup Image">
+      <button class="close-btn" id="close-btn">&times;</button>
+    </div>
+  </div>
+  
+
+
+  <!-- 
+    - #TOP BAR
+  -->
+
+  <div class="topbar">
+    <div class="container">
+
+      <address class="topbar-item">
+        <div class="icon">
+          <ion-icon name="location-outline" aria-hidden="true"></ion-icon>
+        </div>
+
+        <span class="span">
+          International Finance Centre, VIP Road, opp. Fire Station, Vesu, Surat, Gujarat 395007
+        </span>
+      </address>
+
+      <div class="separator"></div>
+
+      <div class="topbar-item item-2">
+        <div class="icon">
+          <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+        </div>
+
+        <span class="span">Daily : 8.00 am to 10.00 pm</span>
+      </div>
+
+      <a href="tel:+11234567890" class="topbar-item link">
+        <div class="icon">
+          <ion-icon name="call-outline" aria-hidden="true"></ion-icon>
+        </div>
+
+        <span class="span">+91 7234567890</span>
+      </a>
+
+      <div class="separator"></div>
+
+      <a href="mailto:booking@koe.com" class="topbar-item link">
+        <div class="icon">
+          <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
+        </div>
+
+        <span class="span">Koethekafe.com</span>
+      </a>
+
+    </div>
+  </div>
+
+
+
+
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#" class="logo">
+        <img src="./assets/images/logo (2).png" width="160" height="50" alt="Koe - Home">
+      </a>
+
+      <nav class="navbar" data-navbar>
+
+        <button class="close-btn" aria-label="close menu" data-nav-toggler>
+          <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+        </button>
+
+        <a href="#" class="logo">
+          <img src="./assets/images/logo (2).png" width="160" height="50" alt="Koe - Home">
+        </a>
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <a href="#home" class="navbar-link hover-underline active">
+              <div class="separator"></div>
+
+              <span class="span font">Home</span>
+            </a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#menu" class="navbar-link hover-underline">
+              <div class="separator"></div>
+
+              <span class="span font">Menu</span>
+            </a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#about" class="navbar-link hover-underline">
+              <div class="separator"></div>
+
+              <span class="span font">About Us</span>
+            </a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#Our Speciality" class="navbar-link hover-underline">
+              <div class="separator"></div>
+
+              <span class="span font">Our Speciality</span>
+            </a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#Contact" class="navbar-link hover-underline">
+              <div class="separator"></div>
+
+              <span class="span font">Contact</span>
+            </a>
+          </li>
+
+        </ul>
+
+        <div class="text-center">
+          <p class="headline-1 navbar-title">Visit Us</p>
+
+          <address class="body-4">
+            International Finance Centre, VIP Road, opp. Fire Station, Vesu, <br>
+            Surat, Gujarat 395007
+          </address>
+
+          <p class="body-4 navbar-text">Open: 9.30 am - 2.30pm</p>
+
+          <a href="mailto:booking@koe.com" class="body-4 sidebar-link">booking@koe.com</a>
+
+          <div class="separator"></div>
+
+          <p class="contact-label">Booking Request</p>
+
+          <a href="tel:+88123123456" class="body-1 contact-number hover-underline">
+            +88-123-123456
+          </a>
+        </div>
+
+      </nav>
+
+      <a href="#" class="btn btn-secondary">
+        <span class="text text-1">Find A Table</span>
+
+        <span class="text text-2" aria-hidden="true">Find A Table</span>
+      </a>
+
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <span class="line line-1"></span>
+        <span class="line line-2"></span>
+        <span class="line line-3"></span>
+      </button>
+
+      <div class="overlay" data-nav-toggler data-overlay></div>
+
+    </div>
+  </header>
+  <main>
+    <article>
+
+      <!-- 
+    
+        - #HERO
+      -->
+
+      <section class="hero text-center" aria-label="home" id="home" style="position: relative; height: 100vh; overflow: hidden;">
+        <video autoplay muted loop style="position: absolute; top: 50%; left: 50%; width: 100%; height: 100%; object-fit: cover; transform: translate(-50%, -50%);">
+            <source src="./assets/images/coffee_-_44802%20(720p).mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <h1 class="display-1 hero-title slider-reveal" style="font-size: larger; padding: 40px;">
+          KOE - The Kafe <br>
+        </h1>
+
+        <div class= "h"style="position: relative; z-index: 1; color: white; text-align: center;">
+            <h1 style="font-size: 5rem; margin: 0;font-family: Great Vibes
+;color:rgb(209, 172, 134)">Koe - The Kafe <br></h1>
+            <p style="font-size: 3rem; margin: 20px 0;font-family:Grandiflora One">"Crafting Coffee, Capturing Moments, Elevating Experiences."</p>
+            
+            </a>
+        </div>
+    </section>
+
+
+
+
+
+      <!-- 
+        - #SERVICE
+      -->
+
+      <section class="section service bg-black-10 text-center" id="Our Speciality" aria-label="service">
+        <div class="container">
+
+          <p class="section-subtitle label-2">Imperial Flavors</p>
+
+          <h2 class="headline-1 section-title" style="font-family: Great Vibes
+;">We Offer Top Notch</h2>
+
+          <p class="section-text">
+            Coffee , Cheeses and Breads.
+          </p>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="service-card">
+
+                <a href="#" class="has-before hover:shine">
+                  <figure class="card-banner img-holder" style="--width: 285; --height: 336;">
+                    <img src="./assets/images/giant-coffee-mill.jpg" width="285" height="336" loading="lazy" alt="Breakfast"
+                      class="img-cover">
+                  </figure>
+                </a>
+
+                <div class="card-content">
+
+                  <h3 class="title-4 card-title">
+                    <a href="#">Coffee machine</a>
+                  </h3>
+
+                 
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <a href="#" class="has-before hover:shine">
+                  <figure class="card-banner img-holder" style="--width: 285; --height: 336;">
+                    <img src="./assets/images/close-up-delicious-pile-cheese-top-each-other.jpg" width="285" height="336" loading="lazy" alt="Appetizers"
+                      class="img-cover">
+                  </figure>
+                </a>
+
+                <div class="card-content">
+
+                  <h3 class="title-4 card-title">
+                    <a href="#">Cheeses</a>
+                  </h3>
+
+                
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <a href="#" class="has-before hover:shine">
+                  <figure class="card-banner img-holder" style="--width: 285; --height: 336;">
+                    <img src="./assets/images/pexels-pattama-wallech-2661996.jpg" width="285" height="336" loading="lazy" alt="Drinks"
+                      class="img-cover">
+                  </figure>
+                </a>
+
+                <div class="card-content">
+
+                  <h3 class="title-4 card-title">
+                    <a href="#">Breads</a>
+                  </h3>
+
+                 
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+          <img src="./assets/images/shape-1.png" width="246" height="412" loading="lazy" alt="shape"
+            class="shape shape-1 move-anim">
+          <img src="./assets/images/shape-2.png" width="343" height="345" loading="lazy" alt="shape"
+            class="shape shape-2 move-anim">
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #ABOUT
+      -->
+
+      <section class="section about text-center" aria-labelledby="about-label" id="about" style="background-color: #664121;">
+        <div class="container">
+
+          <div class="about-content">
+
+            <p class="label-2 section-subtitle" id="about-label">Our Story</p>
+
+            <h2 class="headline-1 section-title" style=" font-family: Great Vibes
+;">Every Coffee bean Tells a Story</h2>
+
+            <p class="section-text">
+              The inception of Kôė was to create a micro scale coffee roasting and food curation experience,
+              with a serene ambience to make the whole experience a complete package for the clientele.
+              Creating a coffee roasting cafe involved a passion for coffee, a dedication to quality roasting,
+              and a desire to create a welcoming space for coffee enthusiasts. The journey likely included learning
+              about various coffee beans, perfecting roasting techniques, and curating a menu that showcases the
+              rich flavors of different coffee origins. The cafe also emphasizes the importance of sustainability and
+              fair trade practices in sourcing its beans, and promoting Indian coffee farmers.
+            </p>
+
+          </div>
+
+          <figure class="about-banner">
+
+            <img src="./assets/images/amb1.jpg" width="570" height="570" loading="lazy" alt="about banner"
+              class="w-100" data-parallax-item data-parallax-speed="1">
+
+            <div class="abs-img abs-img-1 has-before" data-parallax-item data-parallax-speed="1.75">
+              <img src="./assets/images/IMG_1910.jpeg" width="285" height="285" loading="lazy" alt=""
+                class="w-100">
+            </div>
+
+            <div class="abs-img abs-img-2 has-before">
+              <img src="./assets/images/badge-2.png" width="133" height="134" loading="lazy" alt="">
+            </div>
+
+          </figure>
+
+          <img src="./assets/images/[removal.ai]_5c6d2485-db42-4c53-bfea-02cb7ffe7f39-screenshot-2024-06-26-195834.png" width="197" height="194" loading="lazy" alt="" class="shape move-anim">
+
+        </div>
+      </section>
+
+
+      <!-- 
+        - #MENU
+      -->
+
+      <section class="section menu" aria-label="menu-label" id="menu" style="background-image: url('assets/images/table.png'); background-size: cover; background-position: center; background-repeat: no-repeat; height: 100vh; text-align: center; padding: 50px;">
+        <div class="container" style="display: flex; justify-content: center; align-items: center; height: 100%;">
+    
+            <div class="container">
+                <a href="grilli\assets\images\KoeCafeFood.pdf" target="_blank" class="btn btn-primary">
+                    <span class="text text-1">View All Menu</span>
+                    <span class="text text-2" aria-hidden="true">View All Menu</span>
+                </a>
+            </div>
+    
+        </div>
+    </section>
+    
+
+
+
+      <!-- 
+        - #TESTIMONIALS
+      -->
+
+      <section class="section testi text-center has-bg-image"
+      style="background-image: url('assets/images/brownbg.png');"
+      aria-label="testimonials">
+
+        <div class="container">
+
+          <div class="quote">”</div>
+
+          <p class="headline-2 testi-text" style="color: rgb(255, 255, 255);  font-family: Tangerine;">
+            I wanted to thank you for inviting me down for that amazing dinner the other night. The food was
+            extraordinary.
+          </p>
+
+          <div class="wrapper">
+            <div class="separator"></div>
+            <div class="separator"></div>
+            <div class="separator"></div>
+          </div>
+
+          <div class="profile">
+            <img src="./assets/images/yash.png" width="100" height="100" loading="lazy" alt="Sam Jhonson"
+              class="img">
+
+            <p class="label-2 profile-name">Yash shah</p>
+          </div>
+          <img src="grilli\assets\images\shape-7.png" width="208" height="178" loading="lazy" alt="shape"
+          class="shape ">
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #RESERVATION
+      -->
+
+      <section class="reservation" section id="Contact">
+        <div class="container">
+
+          <div class="form reservation-form bg-black-10">
+
+            <form action="" class="form-left">
+
+              <h2 class="headline-1 text-center" style="font-family: Great Vibes
+;">Online Reservation</h2>
+
+              <p class="form-text text-center">
+                Booking request <a href="tel:+88123123456" class="link">+88-123-123456</a>
+                or fill out the order form
+              </p>
+
+              <div class="input-wrapper">
+                <input type="text" name="name" placeholder="Your Name" autocomplete="off" class="input-field">
+
+                <input type="tel" name="phone" placeholder="Phone Number" autocomplete="off" class="input-field">
+              </div>
+
+              <div class="input-wrapper">
+
+                <div class="icon-wrapper">
+                  <ion-icon name="person-outline" aria-hidden="true"></ion-icon>
+
+                  <select name="person" class="input-field">
+                    <option value="1-person">1 Person</option>
+                    <option value="2-person">2 Person</option>
+                    <option value="3-person">3 Person</option>
+                    <option value="4-person">4 Person</option>
+                    <option value="5-person">5 Person</option>
+                    <option value="6-person">6 Person</option>
+                    <option value="7-person">7 Person</option>
+                  </select>
+
+                  <ion-icon name="chevron-down" aria-hidden="true"></ion-icon>
+                </div>
+
+                <div class="icon-wrapper">
+                  <ion-icon name="calendar-clear-outline" aria-hidden="true"></ion-icon>
+
+                  <input type="date" name="reservation-date" class="input-field">
+
+                  <ion-icon name="chevron-down" aria-hidden="true"></ion-icon>
+                </div>
+
+                <div class="icon-wrapper">
+                  <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+
+                  <select name="person" class="input-field">
+                    <option value="08:00am">08 : 00 am</option>
+                    <option value="09:00am">09 : 00 am</option>
+                    <option value="010:00am">10 : 00 am</option>
+                    <option value="011:00am">11 : 00 am</option>
+                    <option value="012:00am">12 : 00 am</option>
+                    <option value="01:00pm">01 : 00 pm</option>
+                    <option value="02:00pm">02 : 00 pm</option>
+                    <option value="03:00pm">03 : 00 pm</option>
+                    <option value="04:00pm">04 : 00 pm</option>
+                    <option value="05:00pm">05 : 00 pm</option>
+                    <option value="06:00pm">06 : 00 pm</option>
+                    <option value="07:00pm">07 : 00 pm</option>
+                    <option value="08:00pm">08 : 00 pm</option>
+                    <option value="09:00pm">09 : 00 pm</option>
+                    <option value="10:00pm">10 : 00 pm</option>
+                  </select>
+
+                  <ion-icon name="chevron-down" aria-hidden="true"></ion-icon>
+                </div>
+
+              </div>
+
+              <textarea name="message" placeholder="Message" autocomplete="off" class="input-field"></textarea>
+
+              <button type="submit" class="btn btn-secondary">
+                <span class="text text-1">Book A Table</span>
+
+                <span class="text text-2" aria-hidden="true">Book A Table</span>
+              </button>
+
+            </form>
+
+            <div class="form-right text-center" style="background-image: url('./assets/images/form-pattern.png')">
+
+              <h2 class="headline-1 text-center" style="font-family: Great Vibes
+;">Contact Us</h2>
+
+              <p class="contact-label">Booking Request</p>
+
+              <a href="tel:+88123123456" class="body-1 contact-number hover-underline">+88-123-123456</a>
+
+              <div class="separator"></div>
+
+              <p class="contact-label">Location</p>
+
+              <address class="body-4">
+                International Finance Centre, VIP Road, opp. Fire Station, Vesu, <br>
+                Surat, Gujarat 395007 
+              </address>
+
+              <p class="contact-label">Timings</p>
+
+              <p class="body-4">
+                Monday to Sunday <br>
+                11.00 am - 11.30pm
+              </p>
+
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #FEATURES
+      -->
+
+      <section class="section features text-center" aria-label="features"  >
+        <div class="container">
+
+          <p class="section-subtitle label-2">Why Choose Us</p>
+
+          <h2 class="headline-1 section-title" style="font-family: Great Vibes
+;">Our Forte</h2>
+
+          <ul class="grid-list">
+
+            <li class="feature-item">
+              <div class="feature-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/bowl.png" width="100" height="80" loading="lazy" alt="icon">
+                </div>
+
+                <h3 class="title-2 card-title">Hygienic Food</h3>
+
+                <p class="label-1 card-text">Indulge in hygienic, delicious food and freshly roast coffee crafted with care and quality.</p>
+
+              </div>
+            </li>
+
+            <li class="feature-item">
+              <div class="feature-card">
+
+                <div class="card-icon seat">
+                  <img src="./assets/images/seat.png" width="74" height="20" loading="lazy" alt="icon">
+                </div>
+
+                <h3 class="title-2 card-title">Lively Environment</h3>
+
+                <p class="label-1 card-text">Enjoy a lively environment paired with Coffee and delicious food</p>
+
+              </div>
+            </li>
+
+            <li class="feature-item">
+              <div class="feature-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/service.png" width="96" height="80" loading="lazy" alt="icon">
+                </div>
+
+                <h3 class="title-2 card-title">Premium Service</h3>
+
+                <p class="label-1 card-text">Enjoy premium service in a vibrant in-door and out-door seating.</p>
+
+              </div>
+            </li>
+
+            <li class="feature-item">
+              <div class="feature-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/cup.png" width="72" height="68" loading="lazy" alt="icon">
+                </div>
+
+                <h3 class="title-2 card-title">Perfect Roast</h3>
+
+                <p class="label-1 card-text">Experience the perfect roast coffee, crafted to perfection.</p>
+
+              </div>
+            </li>
+
+          </ul>
+
+          <img src="./assets/images/coffeedes.png" width="248" height="218" loading="lazy" alt="shape"
+            class="shape shape-1 ">
+
+          <img src="./assets/images/Screenshot_2024-06-26_215304-removebg-preview.png" width="182" height="215" loading="lazy" alt="shape"
+            class="shape shape-2 ">
+
+        </div>
+      </section>
+
+     
+
+
+
+      <!-- 
+        - #EVENT
+      -->
+
+      <section id="eventsSection" section class="section event bg-black-10" aria-label="event">
+        <div class="container">
+
+          <p class="section-subtitle label-2 text-center">Recent Updates</p>
+
+          <h2 class="section-title headline-1 text-center" style="font-family: Great Vibes
+;">Upcoming Event</h2>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="event-card has-before hover:shine">
+
+                <div class="card-banner img-holder" style="--width: 350; --height: 450;">
+                  <img src="./assets/images/2.png" width="350" height="450" loading="lazy"
+                    alt="Flavour so good you’ll try to eat with your eyes." class="img-cover">
+
+                  <time class="publish-date label-2" datetime="2024-09-15">15/09/2024</time>
+                </div>
+
+                <div class="card-content">
+                  <p class="card-subtitle label-2 text-center">Coffee, Flavour</p>
+
+                  <h3 class="card-title title-2 text-center">
+                    Coffee workshop for you.
+                  </h3>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="event-card has-before hover:shine">
+
+                <div class="card-banner img-holder" style="--width: 350; --height: 450;">
+                  <img src="./assets/images/event2.jpg" width="350" height="450" loading="lazy"
+                    alt="Flavour so good you’ll try to eat with your eyes." class="img-cover">
+
+                  <time class="publish-date label-2" datetime="2022-09-08">08/10/2024</time>
+                </div>
+
+                <div class="card-content">
+                  <p class="card-subtitle label-2 text-center">Cheese Tasting</p>
+
+                  <h3 class="card-title title-2 text-center">
+                    Try all the possible flavours.
+                  </h3>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="event-card has-before hover:shine">
+
+                <div class="card-banner img-holder" style="--width: 350; --height: 450;">
+                  <img src="./assets/images/bread.png" width="350" height="450" loading="lazy"
+                    alt="Flavour so good you’ll try to eat with your eyes." class="img-cover">
+
+                  <time class="publish-date label-2" datetime="2022-09-03">03/11/2024</time>
+                </div>
+
+                <div class="card-content">
+                  <p class="card-subtitle label-2 text-center">Bake your own bread</p>
+
+                  <h3 class="card-title title-2 text-center">
+                    Try Hands-On with us.
+                  </h3>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+          <a href="#" class="btn btn-primary">
+            <span class="text text-1">View Our Blog</span>
+
+            <span class="text text-2" aria-hidden="true">View Our Blog</span>
+          </a>
+
+        </div>
+      </section>
+
+
+<!--Google Map-->
+
+<section class="section visit-us" aria-label="visit-us" style="background-color:rgb(102, 65, 33);">
+  <div class="container">
+    <p class="section-subtitle label-2 text-center">Come say Hi</p>
+    <h2 class="section-title headline-1 text-center" style="font-family: Great Vibes">Visit Us</h2>
+    <div class="space"></div>
+    <div class="google-map-container">
+      <!-- Replace the placeholder with your actual Google Map iframe code -->
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3721.2735436899716!2d72.77846137525975!3d21.141509580536162!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be05327ccb9c45f%3A0xe73ce99228e97293!2sKOE%20-%20The%20Kafe!5e0!3m2!1sen!2sin!4v1704186645782!5m2!1sen!2sin" width="790" height="340" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
+    <!-- Address or location details -->
+    <address class="address-label body-4 text-center">
+      International Business Centre, VIP Road, Vesu, Surat, Gujarat 395007
+    </address>
+    <div class="floating-images">
+      <img src="./assets/images/bean.png" alt="Left Floating Image" class="floating-image left move-anim">
+      <img src="./assets/images/[removal.ai]_5c6d2485-db42-4c53-bfea-02cb7ffe7f39-screenshot-2024-06-26-195834.png" alt="Right Floating Image" class="floating-image right move-anim">
+    </div>
+
+  </div>
+</section>
+
+
+      
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer section has-bg-image text-center"
+    style="background-image: url('./assets/images/cafe2.png')">
+    <div class="container">
+
+      <div class="footer-top grid-list">
+
+        <div class="footer-brand has-before has-after">
+
+          <a href="#" class="logo">
+            <img src="./assets/images/logo (2).png" width="160" height="50" loading="lazy" alt="grilli home">
+          </a>
+
+          <address class="body-4">
+           International Finance Centre, VIP Road, Vesu, Surat, Gujarat 395007
+          </address>
+
+          <a href="mailto:booking@koe.com" class="body-4 contact-link">booking@Koethekafe.com</a>
+
+          <a href="tel:+917231234596" class="body-4 contact-link">Booking Request : +918891232126</a>
+
+          <p class="body-4">
+            Open : 08:00 am - 10:00 pm
+          </p>
+
+          <div class="wrapper">
+            <div class="separator"></div>
+            <div class="separator"></div>
+            <div class="separator"></div>
+          </div>
+
+         
+
+          <form action="" class="input-wrapper">
+            <div class="icon-wrapper">
+              <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
+
+              <input type="email" name="email_address" placeholder="Your email" autocomplete="off" class="input-field">
+            </div>
+
+            <button type="submit" class="btn btn-secondary">
+              <span class="text text-1">Subscribe</span>
+
+              <span class="text text-2" aria-hidden="true">Subscribe</span>
+            </button>
+          </form>
+
+        </div>
+
+        <ul class="footer-list">
+
+          <li>
+            <a href="#Home" class="label-2 footer-link hover-underline">Home</a>
+          </li>
+
+          <li>
+            <a href="#Menu" class="label-2 footer-link hover-underline">Menus</a>
+          </li>
+
+          <li>
+            <a href="#About" class="label-2 footer-link hover-underline">About Us</a>
+          </li>
+
+          <li>
+            <a href="#Contact" class="label-2 footer-link hover-underline">Contact</a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <a href="#" class="label-2 footer-link hover-underline">Facebook</a>
+          </li>
+
+          <li>
+            <a href="#" class="label-2 footer-link hover-underline">Instagram</a>
+          </li>
+
+          <li>
+            <a href="#" class="label-2 footer-link hover-underline">Twitter</a>
+          </li>
+
+          <li>
+            <a href="#" class="label-2 footer-link hover-underline">Youtube</a>
+          </li>
+
+          <li>
+            <a href="#" class="label-2 footer-link hover-underline">Google Map</a>
+          </li>
+
+        </ul>
+
+      </div>
+
+      <div class="footer-bottom">
+
+        <p class="copyright">
+          &copy; 2024 KOE-The Kafe. All Rights Reserved | Crafted by <a href="https://github.com/shmbhvi101"
+            target="_blank" class="link">shambhavi and preesha</a>
+        </p>
+
+      </div>
+
+    </div>
+  </footer>
+
+
+
+
+
+  <!-- 
+    - #BACK TO TOP
+  -->
+
+  <a href="#top" class="back-top-btn active" aria-label="back to top" data-back-top-btn>
+    <ion-icon name="chevron-up" aria-hidden="true"></ion-icon>
+  </a>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
